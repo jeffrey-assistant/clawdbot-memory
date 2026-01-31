@@ -34,3 +34,4 @@
 2026-01-31T10:18:34.460Z [ws] ⇄ res ✓ node.list 66ms conn=a0da6cf8…097d id=5aa1c8d7…7918
 2026-01-31T10:18:34.466Z [ws] ⇄ res ✓ device.pair.list 70ms conn=a0da6cf8…097d id=00600f97…7a8f
 2026-01-31T10:18:34.473Z [ws] webchat connected conn=680ae9d5-d49c-4aba-8b70-1623fb579561 remote=127.0.0.1 client=clawdbot-control-ui webchat vdev
+2026-01-31T10:33:45.928Z [telegram] HTML parse failed; retrying without formatting: Call to 'sendMessage' failed! (400: Bad Request: can't parse entities: Unmatched end tag at byte offset 1016, expected "</a>", found "</b>")

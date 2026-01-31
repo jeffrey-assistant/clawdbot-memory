@@ -302,3 +302,88 @@ Command exited with code 126
 2026-01-31T10:26:21.308Z [tools] exec failed: fatal: not a git repository (or any of the parent directories): .git
 
 Command exited with code 128
+2026-01-31T10:27:45.399Z [tools] exec failed: GraphQL: Resource not accessible by personal access token (createRepository)
+
+Command exited with code 1
+2026-01-31T10:28:12.159Z [tools] exec failed: - Resolving hetzner
+✖ Skill not found
+Error: Skill not found
+
+Command exited with code 1
+2026-01-31T10:32:25.347Z [tools] exec failed: --hostname required when not running interactively
+
+Usage:  gh auth refresh [flags]
+
+Flags:
+  -c, --clipboard               Copy one-time OAuth device code to clipboard
+  -h, --hostname string         The GitHub host to use for authentication
+      --insecure-storage        Save authentication credentials in plain text instead of credential store
+  -r, --remove-scopes strings   Authentication scopes to remove from gh
+      --reset-scopes            Reset authentication scopes to the default minimum set of scopes
+  -s, --scopes strings          Additional authentication scopes for gh to have
+
+Command exited with code 1
+2026-01-31T10:32:52.061Z [tools] exec failed: GraphQL: Resource not accessible by personal access token (createRepository)
+
+Command exited with code 1
+2026-01-31T10:36:56.399Z [tools] exec failed: To get started with GitHub CLI, please run:  gh auth login
+Alternatively, populate the GH_TOKEN environment variable with a GitHub API authentication token.
+
+Command exited with code 4
+2026-01-31T10:37:00.325Z [tools] exec failed: You are not logged into any GitHub hosts. To log in, run: gh auth login
+
+Command exited with code 1
+2026-01-31T10:38:43.522Z [tools] exec failed: [master 3f08415] Sync: 2026-01-31 11:38 - Memory updates
+ Committer: Isaak <isaak@Djedjes-Mac-mini.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 8 files changed, 233 insertions(+), 14 deletions(-)
+ create mode 100644 GIT_SYNC_SETUP.md
+remote: Permission to jeffrey-assistant/clawdbot-memory.git denied to isaakzupdeco-commits.
+fatal: unable to access 'https://github.com/jeffrey-assistant/clawdbot-memory.git/': The requested URL returned error: 403
+
+Command exited with code 128
+2026-01-31T10:38:55.877Z [tools] exec failed: remote: error: GH013: Repository rule violations found for refs/heads/master.        
+remote: 
+remote: - GITHUB PUSH PROTECTION        
+remote:   —————————————————————————————————————————        
+remote:     Resolve the following violations before pushing again        
+remote: 
+remote:     - Push cannot contain secrets        
+remote: 
+remote:             
+remote:      (?) Learn how to resolve a blocked push        
+remote:      https://docs.github.com/code-security/secret-scanning/working-with-secret-scanning-and-push-protection/working-with-push-protection-from-the-command-line#resolving-a-blocked-push        
+remote:             
+remote:             
+remote:       —— GitHub Personal Access Token ——————————————————————        
+remote:        locations:        
+remote:          - commit: 3f084156bdb0e121c3168e680b3863c9214dfa0c        
+remote:            path: agents/main/sessions/ba4aff9d-ce7f-4a9f-8e67-f094f3aba92c.jsonl:333        
+remote:          - commit: 3f084156bdb0e121c3168e680b3863c9214dfa0c        
+remote:            path: agents/main/sessions/ba4aff9d-ce7f-4a9f-8e67-f094f3aba92c.jsonl:334        
+remote:          - commit: 3f084156bdb0e121c3168e680b3863c9214dfa0c        
+remote:            path: agents/main/sessions/ba4aff9d-ce7f-4a9f-8e67-f094f3aba92c.jsonl:334        
+remote:          - commit: 3f084156bdb0e121c3168e680b3863c9214dfa0c        
+remote:            path: agents/main/sessions/ba4aff9d-ce7f-4a9f-8e67-f094f3aba92c.jsonl:334        
+remote:             
+remote:        (?) To push, remove secret from commit(s) or follow this URL to allow the secret.        
+remote:        https://github.com/jeffrey-assistant/clawdbot-memory/security/secret-scanning/unblock-secret/391FzsHLT6GiRbv6RfX5NN06zYY        
+remote:             
+remote: 
+remote: 
+To https://github.com/jeffrey-assistant/clawdbot-memory.git
+ ! [remote rejected] master -> master (push declined due to repository rule violations)
+error: failed to push some refs to 'https://github.com/jeffrey-assistant/clawdbot-memory.git'
+
+Command exited with code 1
