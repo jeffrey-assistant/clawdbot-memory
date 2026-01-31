@@ -1,0 +1,67 @@
+{
+  "d886d2163c60878f16ca97c679b3a639fca92c0e9977b4cc87ff588aa7ab212a": {
+    "deviceId": "d886d2163c60878f16ca97c679b3a639fca92c0e9977b4cc87ff588aa7ab212a",
+    "publicKey": "QDQIIJkVTUU9xBVe-nXhOWibOOZqw768kGtAyn2ztAw",
+    "platform": "darwin",
+    "clientId": "gateway-client",
+    "clientMode": "backend",
+    "role": "operator",
+    "roles": [
+      "operator"
+    ],
+    "scopes": [
+      "operator.admin",
+      "operator.approvals",
+      "operator.pairing"
+    ],
+    "remoteIp": "127.0.0.1",
+    "tokens": {
+      "operator": {
+        "token": "b02e6eceaf9f49679713d7f60b0d2918",
+        "role": "operator",
+        "scopes": [
+          "operator.admin",
+          "operator.approvals",
+          "operator.pairing"
+        ],
+        "createdAtMs": 1769853015328,
+        "lastUsedAtMs": 1769855011031
+      }
+    },
+    "createdAtMs": 1769853015328,
+    "approvedAtMs": 1769853015328,
+    "displayName": "agent"
+  },
+  "0a3e711dc9cbfd11a7dad7eb2c045a48ecc12664eb2a3b89ef2f68677094a425": {
+    "deviceId": "0a3e711dc9cbfd11a7dad7eb2c045a48ecc12664eb2a3b89ef2f68677094a425",
+    "publicKey": "331T-zdnrQsYjysQu58pINXEdUfR3EnK_2MOXI8rxiI",
+    "platform": "MacIntel",
+    "clientId": "clawdbot-control-ui",
+    "clientMode": "webchat",
+    "role": "operator",
+    "roles": [
+      "operator"
+    ],
+    "scopes": [
+      "operator.admin",
+      "operator.approvals",
+      "operator.pairing"
+    ],
+    "remoteIp": "127.0.0.1",
+    "tokens": {
+      "operator": {
+        "token": "145a110fd7b44aa6b8da582e8bf53d3e",
+        "role": "operator",
+        "scopes": [
+          "operator.admin",
+          "operator.approvals",
+          "operator.pairing"
+        ],
+        "createdAtMs": 1769853020589,
+        "lastUsedAtMs": 1769854714376
+      }
+    },
+    "createdAtMs": 1769853020589,
+    "approvedAtMs": 1769853020589
+  }
+}

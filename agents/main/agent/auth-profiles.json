@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "profiles": {
+    "synthetic:default": {
+      "type": "api_key",
+      "provider": "synthetic",
+      "key": "syn_bd4b3fb71ddaebc275827efce1c84dd0"
+    }
+  },
+  "lastGood": {
+    "synthetic": "synthetic:default"
+  },
+  "usageStats": {
+    "synthetic:default": {
+      "lastUsed": 1769855129439,
+      "errorCount": 0
+    }
+  }
+}

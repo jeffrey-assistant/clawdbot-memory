@@ -1,0 +1,131 @@
+{
+  "version": 1,
+  "jobs": [
+    {
+      "id": "230dd55f-9945-4237-96c6-d2450a2c77fc",
+      "name": "morning-brief",
+      "enabled": true,
+      "deleteAfterRun": false,
+      "createdAtMs": 1769853943214,
+      "updatedAtMs": 1769853943214,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 8 * * *"
+      },
+      "sessionTarget": "main",
+      "wakeMode": "next-heartbeat",
+      "payload": {
+        "kind": "systemEvent",
+        "text": "Morning brief: check calendar, weather, and summarize emails"
+      },
+      "state": {
+        "nextRunAtMs": 1769929200000
+      }
+    },
+    {
+      "id": "c1d866d9-02a4-4aa0-88b8-b201a2426930",
+      "name": "memory-cleanup",
+      "enabled": true,
+      "deleteAfterRun": false,
+      "createdAtMs": 1769853944445,
+      "updatedAtMs": 1769853944445,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 * * * *"
+      },
+      "sessionTarget": "main",
+      "wakeMode": "next-heartbeat",
+      "payload": {
+        "kind": "systemEvent",
+        "text": "Review and consolidate memory files"
+      },
+      "state": {
+        "nextRunAtMs": 1769857200000
+      }
+    },
+    {
+      "id": "5cd7c0af-9b95-4da1-ae30-4593c455bcc9",
+      "name": "daily-summary",
+      "enabled": true,
+      "deleteAfterRun": false,
+      "createdAtMs": 1769853945624,
+      "updatedAtMs": 1769853945624,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 19 * * *"
+      },
+      "sessionTarget": "main",
+      "wakeMode": "next-heartbeat",
+      "payload": {
+        "kind": "systemEvent",
+        "text": "Generate daily summary of accomplishments and upcoming events"
+      },
+      "state": {
+        "nextRunAtMs": 1769882400000
+      }
+    },
+    {
+      "id": "e2d1725c-d4e0-4c8a-9342-4fa9eb34d50c",
+      "name": "weekly-security",
+      "enabled": true,
+      "deleteAfterRun": false,
+      "createdAtMs": 1769853946792,
+      "updatedAtMs": 1769853946792,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 0 * * 0"
+      },
+      "sessionTarget": "main",
+      "wakeMode": "next-heartbeat",
+      "payload": {
+        "kind": "systemEvent",
+        "text": "Run security audit and generate report"
+      },
+      "state": {
+        "nextRunAtMs": 1769900400000
+      }
+    },
+    {
+      "id": "3ebc17cd-572a-42dc-b23e-0d87b9d3755e",
+      "name": "weather-alert",
+      "enabled": true,
+      "deleteAfterRun": false,
+      "createdAtMs": 1769853947958,
+      "updatedAtMs": 1769853947958,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 7 * * 1-5"
+      },
+      "sessionTarget": "main",
+      "wakeMode": "next-heartbeat",
+      "payload": {
+        "kind": "systemEvent",
+        "text": "Check weather and alert if rain expected"
+      },
+      "state": {
+        "nextRunAtMs": 1770012000000
+      }
+    },
+    {
+      "id": "279d2f4e-7c68-4243-b5af-b599dda86a35",
+      "name": "email-digest",
+      "enabled": true,
+      "deleteAfterRun": false,
+      "createdAtMs": 1769853949112,
+      "updatedAtMs": 1769853949112,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 9,12,18 * * *"
+      },
+      "sessionTarget": "main",
+      "wakeMode": "next-heartbeat",
+      "payload": {
+        "kind": "systemEvent",
+        "text": "Summarize important emails"
+      },
+      "state": {
+        "nextRunAtMs": 1769857200000
+      }
+    }
+  ]
+}

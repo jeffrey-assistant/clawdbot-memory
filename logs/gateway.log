@@ -1,0 +1,36 @@
+2026-01-31T09:50:14.952Z [canvas] host mounted at http://127.0.0.1:18789/__clawdbot__/canvas/ (root /Users/isaak/clawd/canvas)
+2026-01-31T09:50:15.007Z [heartbeat] started
+2026-01-31T09:50:15.010Z [gateway] agent model: synthetic/hf:MiniMaxAI/MiniMax-M2.1
+2026-01-31T09:50:15.012Z [gateway] listening on ws://127.0.0.1:18789 (PID 3445)
+2026-01-31T09:50:15.013Z [gateway] listening on ws://[::1]:18789
+2026-01-31T09:50:15.016Z [gateway] log file: /tmp/clawdbot/clawdbot-2026-01-31.log
+2026-01-31T09:50:15.045Z [browser/server] Browser control listening on http://127.0.0.1:18791/
+2026-01-31T09:50:15.058Z Registered hook: boot-md -> gateway:startup
+2026-01-31T09:50:15.059Z Registered hook: command-logger -> command
+2026-01-31T09:50:15.061Z Registered hook: session-memory -> command:new
+2026-01-31T09:50:15.064Z [hooks] loaded 3 internal hook handlers
+2026-01-31T09:50:15.207Z [telegram] [default] starting provider (@JeffreyAssistbot)
+2026-01-31T09:50:15.331Z [gateway] device pairing auto-approved device=d886d2163c60878f16ca97c679b3a639fca92c0e9977b4cc87ff588aa7ab212a role=operator
+2026-01-31T09:50:20.594Z [gateway] device pairing auto-approved device=0a3e711dc9cbfd11a7dad7eb2c045a48ecc12664eb2a3b89ef2f68677094a425 role=operator
+2026-01-31T09:50:20.598Z [ws] webchat connected conn=5ae8d708-d200-4943-9691-1376c98da6a8 remote=127.0.0.1 client=clawdbot-control-ui webchat vdev
+2026-01-31T09:50:33.278Z [ws] webchat connected conn=953b0b70-9080-4691-95fd-8f9389756bce remote=127.0.0.1 client=clawdbot-control-ui webchat vdev
+2026-01-31T09:54:52.420Z [ws] ⇄ res ✓ node.list 50ms conn=953b0b70…6bce id=e7ef7d70…7853
+2026-01-31T10:18:29.816Z [gateway] signal SIGTERM received
+2026-01-31T10:18:29.818Z [gateway] received SIGTERM; shutting down
+2026-01-31T10:18:29.828Z [gmail-watcher] gmail watcher stopped
+2026-01-31T10:18:32.615Z [canvas] host mounted at http://127.0.0.1:18789/__clawdbot__/canvas/ (root /Users/isaak/clawd/canvas)
+2026-01-31T10:18:32.669Z [heartbeat] started
+2026-01-31T10:18:32.672Z [gateway] agent model: synthetic/hf:MiniMaxAI/MiniMax-M2.1
+2026-01-31T10:18:32.673Z [gateway] listening on ws://127.0.0.1:18789 (PID 7133)
+2026-01-31T10:18:32.674Z [gateway] listening on ws://[::1]:18789
+2026-01-31T10:18:32.677Z [gateway] log file: /tmp/clawdbot/clawdbot-2026-01-31.log
+2026-01-31T10:18:32.695Z [browser/server] Browser control listening on http://127.0.0.1:18791/
+2026-01-31T10:18:32.708Z Registered hook: boot-md -> gateway:startup
+2026-01-31T10:18:32.710Z Registered hook: command-logger -> command
+2026-01-31T10:18:32.711Z Registered hook: session-memory -> command:new
+2026-01-31T10:18:32.714Z [hooks] loaded 3 internal hook handlers
+2026-01-31T10:18:32.822Z [telegram] [default] starting provider (@JeffreyAssistbot)
+2026-01-31T10:18:34.385Z [ws] webchat connected conn=a0da6cf8-9988-4343-9607-70268de9097d remote=127.0.0.1 client=clawdbot-control-ui webchat vdev
+2026-01-31T10:18:34.460Z [ws] ⇄ res ✓ node.list 66ms conn=a0da6cf8…097d id=5aa1c8d7…7918
+2026-01-31T10:18:34.466Z [ws] ⇄ res ✓ device.pair.list 70ms conn=a0da6cf8…097d id=00600f97…7a8f
+2026-01-31T10:18:34.473Z [ws] webchat connected conn=680ae9d5-d49c-4aba-8b70-1623fb579561 remote=127.0.0.1 client=clawdbot-control-ui webchat vdev

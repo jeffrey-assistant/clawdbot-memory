@@ -1,0 +1,304 @@
+2026-01-31T09:50:13.572Z (node:3445) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+2026-01-31T09:50:18.230Z [ws] unauthorized conn=fe8e5b12-c771-4274-a951-d78cd1413bf0 remote=127.0.0.1 client=clawdbot-control-ui webchat vdev reason=token_mismatch
+2026-01-31T09:50:18.235Z [ws] closed before connect conn=fe8e5b12-c771-4274-a951-d78cd1413bf0 remote=127.0.0.1 fwd=n/a origin=http://127.0.0.1:18789 host=127.0.0.1:18789 ua=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 code=1008 reason=unauthorized: gateway token mismatch (open a tokenized dashboard URL or paste token in Control UI settings)
+2026-01-31T09:50:18.238Z [ws] unauthorized conn=7907c4ca-6557-417a-9cf5-42b89d4673d9 remote=127.0.0.1 client=clawdbot-control-ui webchat vdev reason=token_mismatch
+2026-01-31T09:50:18.242Z [ws] closed before connect conn=7907c4ca-6557-417a-9cf5-42b89d4673d9 remote=127.0.0.1 fwd=n/a origin=http://127.0.0.1:18789 host=127.0.0.1:18789 ua=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 code=1008 reason=unauthorized: gateway token mismatch (open a tokenized dashboard URL or paste token in Control UI settings)
+2026-01-31T09:51:46.398Z [tools] browser failed: 404: {"error":"Error: tab not found"}
+2026-01-31T09:51:50.609Z [tools] browser failed: 404: {"error":"Error: tab not found"}
+2026-01-31T09:52:18.310Z [tools] browser failed: 500: {"error":"Error: browserContext.newCDPSession: Protocol error (Target.attachToBrowserTarget): {\"code\":-32000,\"message\":\"Not allowed\"}"}
+2026-01-31T09:52:23.337Z [tools] browser failed: 500: {"error":"Error: browserContext.newCDPSession: Protocol error (Target.attachToBrowserTarget): {\"code\":-32000,\"message\":\"Not allowed\"}"}
+2026-01-31T10:01:27.908Z [tools] exec failed: error: missing required argument 'path'
+
+Command exited with code 1
+2026-01-31T10:05:07.731Z [tools] exec failed: error: unknown option '--schedule'
+
+Command exited with code 1
+2026-01-31T10:05:08.865Z [tools] exec failed: error: unknown option '--schedule'
+
+Command exited with code 1
+2026-01-31T10:05:09.994Z [tools] exec failed: error: unknown option '--schedule'
+
+Command exited with code 1
+2026-01-31T10:05:11.116Z [tools] exec failed: error: unknown option '--schedule'
+
+Command exited with code 1
+2026-01-31T10:05:12.238Z [tools] exec failed: error: unknown option '--schedule'
+
+Command exited with code 1
+2026-01-31T10:05:13.366Z [tools] exec failed: error: unknown option '--schedule'
+
+Command exited with code 1
+2026-01-31T10:05:27.850Z [tools] exec failed: Error: Main jobs require --system-event (systemEvent).
+
+Command exited with code 1
+2026-01-31T10:05:28.997Z [tools] exec failed: Error: Main jobs require --system-event (systemEvent).
+
+Command exited with code 1
+2026-01-31T10:05:30.143Z [tools] exec failed: Error: Main jobs require --system-event (systemEvent).
+
+Command exited with code 1
+2026-01-31T10:05:31.276Z [tools] exec failed: Error: Main jobs require --system-event (systemEvent).
+
+Command exited with code 1
+2026-01-31T10:05:32.410Z [tools] exec failed: Error: Main jobs require --system-event (systemEvent).
+
+Command exited with code 1
+2026-01-31T10:05:33.536Z [tools] exec failed: Error: Main jobs require --system-event (systemEvent).
+
+Command exited with code 1
+2026-01-31T10:07:18.330Z [tools] exec failed: node:internal/modules/package_json_reader:316
+  throw new ERR_MODULE_NOT_FOUND(packageName, fileURLToPath(base), null);
+        ^
+
+Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'undici' imported from /opt/homebrew/lib/node_modules/clawdhub/dist/http.js
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:316:9)
+    at packageResolve (node:internal/modules/esm/resolve:768:81)
+    at moduleResolve (node:internal/modules/esm/resolve:859:18)
+    at defaultResolve (node:internal/modules/esm/resolve:991:11)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:712:20)
+    at #resolveAndMaybeBlockOnLoaderThread (node:internal/modules/esm/loader:729:38)
+    at ModuleLoader.resolveSync (node:internal/modules/esm/loader:758:52)
+    at #resolve (node:internal/modules/esm/loader:694:17)
+    at ModuleLoader.getOrCreateModuleJob (node:internal/modules/esm/loader:614:35)
+    at ModuleJob.syncLink (node:internal/modules/esm/module_job:160:33) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+
+Node.js v25.4.0
+
+Command exited with code 1
+2026-01-31T10:07:18.649Z [tools] exec failed: node:internal/modules/package_json_reader:316
+  throw new ERR_MODULE_NOT_FOUND(packageName, fileURLToPath(base), null);
+        ^
+
+Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'undici' imported from /opt/homebrew/lib/node_modules/clawdhub/dist/http.js
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:316:9)
+    at packageResolve (node:internal/modules/esm/resolve:768:81)
+    at moduleResolve (node:internal/modules/esm/resolve:859:18)
+    at defaultResolve (node:internal/modules/esm/resolve:991:11)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:712:20)
+    at #resolveAndMaybeBlockOnLoaderThread (node:internal/modules/esm/loader:729:38)
+    at ModuleLoader.resolveSync (node:internal/modules/esm/loader:758:52)
+    at #resolve (node:internal/modules/esm/loader:694:17)
+    at ModuleLoader.getOrCreateModuleJob (node:internal/modules/esm/loader:614:35)
+    at ModuleJob.syncLink (node:internal/modules/esm/module_job:160:33) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+
+Node.js v25.4.0
+
+Command exited with code 1
+2026-01-31T10:07:46.023Z [tools] exec failed: node:internal/modules/package_json_reader:316
+  throw new ERR_MODULE_NOT_FOUND(packageName, fileURLToPath(base), null);
+        ^
+
+Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'undici' imported from /opt/homebrew/lib/node_modules/clawdhub/dist/http.js
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:316:9)
+    at packageResolve (node:internal/modules/esm/resolve:768:81)
+    at moduleResolve (node:internal/modules/esm/resolve:859:18)
+    at defaultResolve (node:internal/modules/esm/resolve:991:11)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:712:20)
+    at #resolveAndMaybeBlockOnLoaderThread (node:internal/modules/esm/loader:729:38)
+    at ModuleLoader.resolveSync (node:internal/modules/esm/loader:758:52)
+    at #resolve (node:internal/modules/esm/loader:694:17)
+    at ModuleLoader.getOrCreateModuleJob (node:internal/modules/esm/loader:614:35)
+    at ModuleJob.syncLink (node:internal/modules/esm/module_job:160:33) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+
+Node.js v25.4.0
+
+Command exited with code 1
+2026-01-31T10:07:46.343Z [tools] exec failed: node:internal/modules/package_json_reader:316
+  throw new ERR_MODULE_NOT_FOUND(packageName, fileURLToPath(base), null);
+        ^
+
+Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'undici' imported from /opt/homebrew/lib/node_modules/clawdhub/dist/http.js
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:316:9)
+    at packageResolve (node:internal/modules/esm/resolve:768:81)
+    at moduleResolve (node:internal/modules/esm/resolve:859:18)
+    at defaultResolve (node:internal/modules/esm/resolve:991:11)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:712:20)
+    at #resolveAndMaybeBlockOnLoaderThread (node:internal/modules/esm/loader:729:38)
+    at ModuleLoader.resolveSync (node:internal/modules/esm/loader:758:52)
+    at #resolve (node:internal/modules/esm/loader:694:17)
+    at ModuleLoader.getOrCreateModuleJob (node:internal/modules/esm/loader:614:35)
+    at ModuleJob.syncLink (node:internal/modules/esm/module_job:160:33) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+
+Node.js v25.4.0
+
+Command exited with code 1
+2026-01-31T10:07:57.658Z [tools] exec failed: /opt/homebrew/bin/clawdhub
+node:internal/modules/package_json_reader:316
+  throw new ERR_MODULE_NOT_FOUND(packageName, fileURLToPath(base), null);
+        ^
+
+Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'undici' imported from /opt/homebrew/lib/node_modules/clawdhub/dist/http.js
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:316:9)
+    at packageResolve (node:internal/modules/esm/resolve:768:81)
+    at moduleResolve (node:internal/modules/esm/resolve:859:18)
+    at defaultResolve (node:internal/modules/esm/resolve:991:11)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:712:20)
+    at #resolveAndMaybeBlockOnLoaderThread (node:internal/modules/esm/loader:729:38)
+    at ModuleLoader.resolveSync (node:internal/modules/esm/loader:758:52)
+    at #resolve (node:internal/modules/esm/loader:694:17)
+    at ModuleLoader.getOrCreateModuleJob (node:internal/modules/esm/loader:614:35)
+    at ModuleJob.syncLink (node:internal/modules/esm/module_job:160:33) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+
+Node.js v25.4.0
+
+Command exited with code 1
+2026-01-31T10:08:02.195Z [tools] exec failed: ERR_PNPM_NO_GLOBAL_BIN_DIR  Unable to find the global bin directory
+
+Run "pnpm setup" to create it automatically, or set the global-bin-dir setting, or the PNPM_HOME env variable. The global bin directory should be in the PATH.
+
+Command exited with code 1
+2026-01-31T10:08:07.011Z [tools] exec failed: error: unknown option '--version'
+
+Usage: clawdhub [options] [command]
+
+ClawdHub CLI v0.3.0
+install, update, search, and publish agent skills.
+
+Options:
+  -V, --cli-version            Show CLI version
+  --workdir <dir>              Working directory (default: cwd)
+  --dir <dir>                  Skills directory (relative to workdir, default:
+                               skills)
+  --site <url>                 Site base URL (for browser login)
+  --registry <url>             Registry API base URL
+  --no-input                   Disable prompts
+  -h, --help                   display help for command
+
+Commands:
+  login [options]              Log in (opens browser or stores token)
+  logout                       Remove stored token
+  whoami                       Validate token
+  auth                         Authentication commands
+  search [options] <query...>  Vector search skills
+  install [options] <slug>     Install into <dir>/<slug>
+  update [options] [slug]      Update installed skills
+  list                         List installed skills (from lockfile)
+  explore [options]            Browse latest updated skills from the registry
+  publish [options] <path>     Publish skill from folder
+  delete [options] <slug>      Soft-delete a skill (owner/admin only)
+  undelete [options] <slug>    Restore a soft-deleted skill (owner/admin only)
+  star [options] <slug>        Add a skill to your highlights
+  unstar [options] <slug>      Remove a skill from your highlights
+  sync [options]               Scan local skills and publish new/updated ones
+
+Env:
+  CLAWDHUB_SITE
+  CLAWDHUB_REGISTRY
+  CLAWDHUB_WORKDIR
+
+Command exited with code 1
+2026-01-31T10:08:46.741Z [tools] exec failed: error: unknown option '--timeout'
+
+Usage: clawdhub search [options] <query...>
+
+Vector search skills
+
+Arguments:
+  query        Query string
+
+Options:
+  --limit <n>  Max results
+  -h, --help   display help for command
+
+Command exited with code 1
+2026-01-31T10:15:08.263Z [tools] exec failed: error: missing required argument 'path'
+
+Command exited with code 1
+2026-01-31T10:15:30.594Z [tools] exec failed: Error: Config validation failed: plugins.entries.clawdbot-supermemory: plugin not found: clawdbot-supermemory
+
+Command exited with code 1
+2026-01-31T10:15:31.765Z [tools] exec failed: Error: Config validation failed: plugins.entries.clawdbot-supermemory: plugin not found: clawdbot-supermemory
+
+Command exited with code 1
+2026-01-31T10:18:03.945Z [tools] exec failed: error: unknown option '--limit'
+
+Usage: clawdhub install [options] <slug>
+
+Install into <dir>/<slug>
+
+Arguments:
+  slug                 Skill slug
+
+Options:
+  --version <version>  Version to install
+  --force              Overwrite existing folder
+  -h, --help           display help for command
+
+Command exited with code 1
+2026-01-31T10:18:10.534Z [tools] exec failed: Error: Already installed: /Users/isaak/clawd/skills/supermemory (use --force)
+
+Command exited with code 1
+2026-01-31T10:18:29.830Z [clawdbot] Unhandled promise rejection: AbortError: This operation was aborted
+    at node:internal/deps/undici/undici:16416:13
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-01-31T10:18:31.234Z (node:7133) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+2026-01-31T10:21:13.633Z [tools] exec failed: /opt/homebrew/bin/qmd
+Usage:
+  qmd collection add [path] --name <name> --mask <pattern>  - Create/index collection
+  qmd collection list           - List all collections with details
+  qmd collection remove <name>  - Remove a collection by name
+  qmd collection rename <old> <new>  - Rename a collection
+  qmd ls [collection[/path]]    - List collections or files in a collection
+  qmd context add [path] "text" - Add context for path (defaults to current dir)
+  qmd context list              - List all contexts
+  qmd context rm <path>         - Remove context
+  qmd get <file>[:line] [-l N] [--from N]  - Get document (optionally from line, max N lines)
+  qmd multi-get <pattern> [-l N] [--max-bytes N]  - Get multiple docs by glob or comma-separated list
+  qmd status                    - Show index status and collections
+  qmd update [--pull]           - Re-index all collections (--pull: git pull first)
+  qmd embed [-f]                - Create vector embeddings (800 tokens/chunk, 15% overlap)
+  qmd cleanup                   - Remove cache and orphaned data, vacuum DB
+  qmd search <query>            - Full-text search (BM25)
+  qmd vsearch <query>           - Vector similarity search
+  qmd query <query>             - Combined search with query expansion + reranking
+  qmd mcp                       - Start MCP server (for AI agent integration)
+
+Global options:
+  --index <name>             - Use custom index name (default: index)
+
+Search options:
+  -n <num>                   - Number of results (default: 5, or 20 for --files)
+  --all                      - Return all matches (use with --min-score to filter)
+  --min-score <num>          - Minimum similarity score
+  --full                     - Output full document instead of snippet
+  --line-numbers             - Add line numbers to output
+  --files                    - Output docid,score,filepath,context (default: 20 results)
+  --json                     - JSON output with snippets (default: 20 results)
+  --csv                      - CSV output with snippets
+  --md                       - Markdown output
+  --xml                      - XML output
+  -c, --collection <name>    - Filter results to a specific collection
+
+Multi-get options:
+  -l <num>                   - Maximum lines per file
+  --max-bytes <num>          - Skip files larger than N bytes (default: 10240)
+  --json/--csv/--md/--xml/--files - Output format (same as search)
+
+Models (auto-downloaded from HuggingFace):
+  Embedding: embeddinggemma-300M-Q8_0
+  Reranking: qwen3-reranker-0.6b-q8_0
+  Generation: Qwen3-0.6B-Q8_0
+
+Index: /Users/isaak/.cache/qmd/index.sqlite
+
+Command exited with code 1
+2026-01-31T10:22:18.934Z [tools] exec failed: zsh:1: permission denied: /Users/isaak/clawd/skills/supermemory/scripts/add-memory.sh
+
+Command exited with code 126
+2026-01-31T10:23:31.062Z [tools] browser failed: 500: {"error":"Error: Chrome extension relay is running, but no tab is connected. Click the Clawdbot Chrome extension icon on a tab to attach it (profile \"chrome\")."}
+2026-01-31T10:23:42.678Z [tools] browser failed: 500: {"error":"Error: Chrome extension relay is running, but no tab is connected. Click the Clawdbot Chrome extension icon on a tab to attach it (profile \"chrome\")."}
+2026-01-31T10:26:21.308Z [tools] exec failed: fatal: not a git repository (or any of the parent directories): .git
+
+Command exited with code 128
